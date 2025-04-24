@@ -9,8 +9,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    final int WINDOW_WIDTH = 600;
-    final int WINDOW_HEIGHT = 400;
+    final int WINDOW_WIDTH = 1600;
+    final int WINDOW_HEIGHT = 1200;
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -20,7 +20,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
-        stage.setTitle("JavaFX App");
+        stage.setTitle("Chat IETI");
         stage.setWidth(WINDOW_WIDTH);
         stage.setHeight(WINDOW_HEIGHT);
         stage.show();
